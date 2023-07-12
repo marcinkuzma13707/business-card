@@ -1,0 +1,131 @@
+.app-frame {
+  background-color: #23252C;
+  padding: 45px 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.app {
+  background-color: #1A1B21;
+  width: 317px;
+  flex-shrink: 0;
+}
+
+.herocard {
+  text-align: center;
+}
+
+.herocard--name {
+  color: white;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.herocard--position {
+  color: #F3BF99;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.herocard--picture {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.contact {
+  background-color: #1A1B21;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.email-button {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.linkedin-button {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.content{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content > h2 {
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 5px;
+}
+
+.content--text{
+  color: #DCDCDC;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer{
+  padding-left:60px;
+  padding-right:60px;
+  margin-top:30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:30px;
+}
+
+.footer > a > img{
+  fill: #918E9B;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+}
